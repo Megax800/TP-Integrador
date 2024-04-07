@@ -1,0 +1,14 @@
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\bin\Debug\net8.0\Decision.exe
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\bin\Debug\net8.0\Decision.deps.json
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\bin\Debug\net8.0\Decision.runtimeconfig.json
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\bin\Debug\net8.0\Decision.dll
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\bin\Debug\net8.0\Decision.pdb
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.GeneratedMSBuildEditorConfig.editorconfig
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.AssemblyInfoInputs.cache
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.AssemblyInfo.cs
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.csproj.CoreCompileInputs.cache
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.dll
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\refint\Decision.dll
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.pdb
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\Decision.genruntimeconfig.cache
+C:\Net\Unidad02\Capitulo01\Lab01\Decision\obj\Debug\net8.0\ref\Decision.dll
