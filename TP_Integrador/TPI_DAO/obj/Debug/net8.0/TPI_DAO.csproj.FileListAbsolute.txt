@@ -1,0 +1,15 @@
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.exe
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.deps.json
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.runtimeconfig.json
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.dll
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.pdb
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.AssemblyInfoInputs.cache
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.AssemblyInfo.cs
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.csproj.CoreCompileInputs.cache
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.sourcelink.json
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.dll
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\refint\TPI_DAO.dll
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.pdb
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.genruntimeconfig.cache
+C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\ref\TPI_DAO.dll

@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "TPI_GUI/1.0.0": {
+        "dependencies": {
+          "TPI_Controller": "1.0.0"
+        },
+        "runtime": {
+          "TPI_GUI.dll": {}
+        }
+      },
+      "TPI_Controller/1.0.0": {
+        "dependencies": {
+          "TPI_DAO": "1.0.0"
+        },
+        "runtime": {
+          "TPI_Controller.dll": {}
+        }
+      },
+      "TPI_DAO/1.0.0": {
+        "runtime": {
+          "TPI_DAO.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TPI_GUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TPI_Controller/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TPI_DAO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

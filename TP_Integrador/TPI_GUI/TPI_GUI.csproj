@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\TPI_Controller\TPI_Controller.csproj" />
+  </ItemGroup>
+
 </Project>
