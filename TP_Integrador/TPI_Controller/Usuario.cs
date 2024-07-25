@@ -12,20 +12,21 @@ namespace TPI_Controller
         private string _mail;
         private bool _habilitado;
         private string _nombre;
-        private string _nombreUsuario;
-        public Usuario(string ape, string nom, TipoPersonas tp)
+        private string _nombreusuario;
+        public Usuario(string ape, string nom, TipoPersonas tp, DateTime nac)
         {
-            Apellido = ape;
-            Nombre = nom;
-            NombreUsuario = String.Concat(ape.ToLower(), nom.ToLower());
-            Clave = DateTime.Now.ToString();
+            _apellido = ape;
+            _nombre = nom;
+            _mail = "";
+            _nombreusuario = String.Concat(ape.ToLower(), nom.ToLower());
+            _clave = nac.ToShortDateString();
             if (tp.id == 1)
             {
-                Habilitado = true;
+                _habilitado = true;
             }
             else
             {
-                Habilitado = false;
+                _habilitado = false;
             }
       
         }
@@ -56,8 +57,8 @@ namespace TPI_Controller
 
         public string NombreUsuario
         {
-            get => _nombreUsuario;
-            set => _nombreUsuario = value;
+            get => _nombreusuario;
+            set => _nombreusuario = value;
         }
 
         public bool Habilitado

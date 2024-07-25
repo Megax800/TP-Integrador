@@ -31,5 +31,11 @@ namespace TPI_GUI
                     break;
             }
         }
+
+        private void btnViewPass_Click(object sender, EventArgs e)
+        {
+            Controlador CTL = new Controlador();
+            MessageBox.Show(CTL.GetUsuario(txtNombre.Text).Clave);
+        }
     }
 }
