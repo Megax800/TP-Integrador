@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
@@ -51,6 +54,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\.gitignore",
+              "RelativeDocumentMoniker": "..\\.gitignore",
+              "ToolTip": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\.gitignore",
+              "RelativeToolTip": "..\\.gitignore",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-24T16:29:09.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "frmLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\frmLogin.cs",
               "RelativeDocumentMoniker": "TPI_GUI\\frmLogin.cs",
@@ -62,7 +78,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "DAOUsuarios.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\DAOUsuarios.cs",
               "RelativeDocumentMoniker": "TPI_DAO\\DAOUsuarios.cs",
@@ -74,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Usuario.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\Usuario.cs",
               "RelativeDocumentMoniker": "TPI_Controller\\Usuario.cs",
@@ -86,7 +102,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "DAOPersonas.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\DAOPersonas.cs",
               "RelativeDocumentMoniker": "TPI_DAO\\DAOPersonas.cs",
@@ -98,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\Program.cs",
               "RelativeDocumentMoniker": "TPI_DAO\\Program.cs",
@@ -110,7 +126,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Persona.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\Persona.cs",
               "RelativeDocumentMoniker": "TPI_Controller\\Persona.cs",
@@ -122,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\Controller.cs",
               "RelativeDocumentMoniker": "TPI_Controller\\Controller.cs",
@@ -134,7 +150,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "frmLogin.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\frmLogin.cs",
               "RelativeDocumentMoniker": "TPI_GUI\\frmLogin.cs",
@@ -146,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ClassDiagram1.cd",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\ClassDiagram1.cd",
               "RelativeDocumentMoniker": "TPI_DAO\\ClassDiagram1.cd",
