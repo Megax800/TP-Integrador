@@ -33,6 +33,12 @@ namespace TPI_Controller
             usuarios.ElementAt(0).Clave = "1234";
             Console.WriteLine(usuarios.ElementAt(0));
 
+            // docentes
+            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972")));
+            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985")));
+            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989")));
+            // y si mejor crear subclases?
+
             especialidades.Add(new Especialidad("Tecnico Electronico"));
             especialidades.Add(new Especialidad("Mecanico"));
             especialidades.Add(new Especialidad("Electricista"));
