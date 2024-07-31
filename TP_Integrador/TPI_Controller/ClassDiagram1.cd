@@ -8,15 +8,16 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Usuario">
-    <Position X="4.5" Y="0.5" Width="1.5" />
+    <Position X="3.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAgBAAAAACAAAAQEAAAAgAAAAAAAABAAAIEAAAIAEAA=</HashCode>
+      <HashCode>gAgBAAAAACAAAAQEAAAAgAAAAAAAABAAAIAAAQIAEAA=</HashCode>
       <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Controlador">
-    <Position X="6.5" Y="1.25" Width="1.5" />
+    <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
+<<<<<<< HEAD
       <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAEABCRAAgAAA=</HashCode>
       <FileName>Controller.cs</FileName>
     </TypeIdentifier>
@@ -26,6 +27,24 @@
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAEAAAAAACAABAAAAACACAAA=</HashCode>
       <FileName>Comision.cs</FileName>
+=======
+      <HashCode>AAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAEABCRAAgAAA=</HashCode>
+      <FileName>Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.Especialidad">
+    <Position X="6.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Especialidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.Curso">
+    <Position X="8.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAYAAgAIAAAAAACAAAAABAAAAAgAAAAAgAQAAAAA=</HashCode>
+      <FileName>Curso.cs</FileName>
+>>>>>>> 13c81125deca741e7105875d7493ea795be67e8e
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

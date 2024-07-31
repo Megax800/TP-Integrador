@@ -34,6 +34,7 @@
             txtContraseña = new TextBox();
             btnLogin = new Button();
             label1 = new Label();
+            btnViewPass = new Button();
             SuspendLayout();
             // 
             // txtNombre
@@ -87,11 +88,22 @@
             label1.Size = new Size(0, 15);
             label1.TabIndex = 5;
             // 
+            // btnViewPass
+            // 
+            btnViewPass.Location = new Point(58, 148);
+            btnViewPass.Name = "btnViewPass";
+            btnViewPass.Size = new Size(102, 23);
+            btnViewPass.TabIndex = 6;
+            btnViewPass.Text = "Ver Contraseña";
+            btnViewPass.UseVisualStyleBackColor = true;
+            btnViewPass.Click += btnViewPass_Click;
+            // 
             // frmLogin
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(355, 218);
+            Controls.Add(btnViewPass);
             Controls.Add(label1);
             Controls.Add(btnLogin);
             Controls.Add(txtContraseña);
@@ -113,5 +125,6 @@
         private TextBox txtContraseña;
         private Button btnLogin;
         private Label label1;
+        private Button btnViewPass;
     }
 }

@@ -3,6 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\",
   "Documents": [
     {
+<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -13,6 +14,46 @@
     {
       "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_dao\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|solutionrelative:tpi_dao\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_dao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|solutionrelative:tpi_dao\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|solutionrelative:tpi_dao\\daousuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_dao\\daopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{768C05D7-BD1E-404C-AE04-991E64E10A82}|TPI_DAO\\TPI_DAO.csproj|solutionrelative:tpi_dao\\daopersonas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\curso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\persona.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_controller\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\especialidad.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> 13c81125deca741e7105875d7493ea795be67e8e
     }
   ],
   "DocumentGroupContainers": [
@@ -26,6 +67,7 @@
           "Children": [
             {
               "$type": "Document",
+<<<<<<< HEAD
               "DocumentIndex": 1,
               "Title": "frmLogin.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\frmLogin.cs",
@@ -35,10 +77,35 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T20:16:17.417Z",
               "EditorCaption": " [Dise\u00F1o]"
+=======
+              "DocumentIndex": 0,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "TPI_DAO\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\ClassDiagram1.cd",
+              "RelativeToolTip": "TPI_DAO\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-07-18T16:20:39.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\Program.cs",
+              "RelativeDocumentMoniker": "TPI_DAO\\Program.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\Program.cs",
+              "RelativeToolTip": "TPI_DAO\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:20:37.409Z",
+              "EditorCaption": ""
+>>>>>>> 13c81125deca741e7105875d7493ea795be67e8e
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+<<<<<<< HEAD
               "Title": "Controller.cs",
               "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\Controller.cs",
               "RelativeDocumentMoniker": "TPI_Controller\\Controller.cs",
@@ -60,6 +127,107 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T20:05:43.652Z",
               "EditorCaption": ""
+=======
+              "Title": "DAOUsuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\DAOUsuarios.cs",
+              "RelativeDocumentMoniker": "TPI_DAO\\DAOUsuarios.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\DAOUsuarios.cs",
+              "RelativeToolTip": "TPI_DAO\\DAOUsuarios.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:20:36.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DAOPersonas.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\DAOPersonas.cs",
+              "RelativeDocumentMoniker": "TPI_DAO\\DAOPersonas.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_DAO\\DAOPersonas.cs",
+              "RelativeToolTip": "TPI_DAO\\DAOPersonas.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T16:20:34.862Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Usuario.cs",
+              "RelativeDocumentMoniker": "TPI_Controller\\Usuario.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Usuario.cs",
+              "RelativeToolTip": "TPI_Controller\\Usuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:27:21.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Persona.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Persona.cs",
+              "RelativeDocumentMoniker": "TPI_Controller\\Persona.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Persona.cs",
+              "RelativeToolTip": "TPI_Controller\\Persona.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBkAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:27:19.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Curso.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Curso.cs",
+              "RelativeDocumentMoniker": "TPI_Controller\\Curso.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Curso.cs",
+              "RelativeToolTip": "TPI_Controller\\Curso.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T14:23:23.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Especialidad.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Especialidad.cs",
+              "RelativeDocumentMoniker": "TPI_Controller\\Especialidad.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Especialidad.cs",
+              "RelativeToolTip": "TPI_Controller\\Especialidad.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T13:53:42.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "TPI_Controller\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\ClassDiagram1.cd",
+              "RelativeToolTip": "TPI_Controller\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-07-18T13:50:21.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Controller.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Controller.cs",
+              "RelativeDocumentMoniker": "TPI_Controller\\Controller.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\Controller.cs",
+              "RelativeToolTip": "TPI_Controller\\Controller.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAowNMAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-08T00:19:27.701Z",
+              "EditorCaption": ""
+>>>>>>> 13c81125deca741e7105875d7493ea795be67e8e
             }
           ]
         }
