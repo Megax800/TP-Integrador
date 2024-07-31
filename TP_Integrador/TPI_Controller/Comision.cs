@@ -11,9 +11,11 @@ namespace TPI_Controller
         private string _comisionNombre;
         private int _planId;
 
-        public Comision()
+        public Comision(int comisionId, string comisionNombre, int planId)
         {
-            throw new System.NotImplementedException();
+            ComisionId = comisionId; // luego autogenerada al commit en sql
+            ComisionNombre = comisionNombre;
+            PlanId = planId;
         }
 
         public int ComisionId

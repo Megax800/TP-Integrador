@@ -10,6 +10,7 @@ namespace TPI_Controller
         List<Usuario> usuarios = [];
         List<Curso> cursos = [];
         List<Especialidad> especialidades = [];
+        List<Comision> comisiones = [];
         public Controlador()
         {
             
@@ -37,6 +38,14 @@ namespace TPI_Controller
             cursos.Add(new Curso(2008, 1, 30, "Termodinamica I", 101));
             cursos.Add(new Curso(2005, 2, 30, "Fisica I", 102));
             cursos.Add(new Curso(2008, 3, 30, "Electricidad II", 201));
+
+            comisiones.Add(new Comision(1, "1K01", 1));
+            comisiones.Add(new Comision(2, "1K02", 1));
+            comisiones.Add(new Comision(3, "1K03", 1));
+            comisiones.Add(new Comision(4, "1C03", 2));
+            comisiones.Add(new Comision(5, "1C03", 2));
+            comisiones.Add(new Comision(6, "1C03", 3));
+            // ID COMISION, NOMBRE COMISION, ID PLAN (puede hacer referencia a plan 2008 sistemas, 2023 sistemas, 2008 civil, etc...)
         }
         
         //0: Usuario Incorrecto 1: Validacion Correcta 2: Constraseña incorrecta
@@ -257,6 +266,20 @@ namespace TPI_Controller
         {
             var query = from u in usuarios where u.NombreUsuario.Equals(userName) select u;
             return query.ElementAt(0).Clave;
+        }
+
+        public bool AddComision(int comId, string comNombre, int planId)
+        {
+            try
+            {
+                comisiones.Add(new Comision(comId, comNombre, planId));
+            }
+            catch (Exception ex)
+            {
+                // log ex?
+                return false;
+            }
+            return true;
         }
         static void Main() { }
     }
