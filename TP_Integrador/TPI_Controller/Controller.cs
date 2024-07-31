@@ -12,6 +12,7 @@ namespace TPI_Controller
         List<Especialidad> especialidades = [];
         List<Comision> comisiones = [];
         List<Plan> planes = [];
+        List<Materia> materias = [];
         public Controlador()
         {
             
@@ -57,6 +58,14 @@ namespace TPI_Controller
             planes.Add(new Plan(7, 2023, 2));
             planes.Add(new Plan(8, 2023, 3));
             // especialidad id no incluida en su clase aun
+
+            materias.Add(new Materia(1, 4, 200, 1));
+            materias.Add(new Materia(2, 4, 200, 1));
+            materias.Add(new Materia(3, 3, 170, 7));
+            materias.Add(new Materia(4, 8, 400, 3));
+            materias.Add(new Materia(5, 5, 300, 4));
+            materias.Add(new Materia(6, 6, 300, 2));
+            materias.Add(new Materia(7, 8, 400, 2));
         }
         
         //0: Usuario Incorrecto 1: Validacion Correcta 2: Constraseña incorrecta
