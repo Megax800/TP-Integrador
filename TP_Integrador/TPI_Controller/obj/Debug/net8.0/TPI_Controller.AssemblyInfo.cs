@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPI_Controller")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7e395d3a02cf0d0bd68800c0b7648dc4bdb6041f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e7d56d5d7f315215dc3c12f2855671e639a5d42")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPI_Controller")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPI_Controller")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
