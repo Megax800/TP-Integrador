@@ -30,3 +30,35 @@ C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_GU
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.pdb
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.genruntimeconfig.cache
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\ref\TPI_GUI.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\refint\TPI_GUI.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.csproj.AssemblyReference.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.frmLogin.resources
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.frmMenuAlumno.resources
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.MenuGeneral.resources
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.Form2.resources
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.csproj.GenerateResource.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.AssemblyInfoInputs.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.AssemblyInfo.cs
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.csproj.CoreCompileInputs.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.sourcelink.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_Controller.deps.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_Controller.runtimeconfig.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_DAO.deps.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_DAO.runtimeconfig.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_DAO.exe
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_Controller.exe
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_GUI.exe
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_GUI.deps.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_GUI.runtimeconfig.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_GUI.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_GUI.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_Controller.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_DAO.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_Controller.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\bin\Debug\net8.0-windows\TPI_DAO.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.csproj.Up2Date
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\TPI_GUI.genruntimeconfig.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_GUI\obj\Debug\net8.0-windows\ref\TPI_GUI.dll

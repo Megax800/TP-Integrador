@@ -13,3 +13,18 @@ C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DA
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.pdb
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.genruntimeconfig.cache
 C:\Users\Octavio\Documents\Desarrollo IDE\Net\TP-Integrador\TP_Integrador\TPI_DAO\obj\Debug\net8.0\ref\TPI_DAO.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.exe
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.deps.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.runtimeconfig.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\bin\Debug\net8.0\TPI_DAO.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.AssemblyInfoInputs.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.AssemblyInfo.cs
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.csproj.CoreCompileInputs.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.sourcelink.json
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\refint\TPI_DAO.dll
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.pdb
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\TPI_DAO.genruntimeconfig.cache
+C:\Users\alber\Documents\Facultad\Electivas\NET\TP_Integrador\TPI_DAO\obj\Debug\net8.0\ref\TPI_DAO.dll

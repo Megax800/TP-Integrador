@@ -18,13 +18,13 @@ namespace TPI_GUI
         private void btnLogin_Click(object sender, EventArgs e)
         {
             Controlador CTL = new Controlador();
-            switch (CTL.ValidaUser(txtNombre.Text, txtContraseña.Text))
+            switch (CTL.ValidaUser(txtNombre.Text, txtContraseÃ±a.Text))
             {
                 case 0:
                     MessageBox.Show("Nombre de Usuario Incorrecto, Ingreselo nuevamente", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
                 case 2:
-                    MessageBox.Show("Contraseña Incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    MessageBox.Show("Contraseï¿½a Incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
                 case 1:
                     MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
