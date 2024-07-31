@@ -17,7 +17,7 @@
   <Class Name="TPI_Controller.Controlador">
     <Position X="5.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>YAGQEAAAAAEAAAEAAAAAgAAAAAAAABQNEABSRAEgQBE=</HashCode>
+      <HashCode>YAGQEAAAAAEAAAEAAAAAgAAAAAAAAhQNEABSRAEgQBE=</HashCode>
       <FileName>Controller.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -47,6 +47,13 @@
     <TypeIdentifier>
       <HashCode>AABAAAAAAAEACAAAAAAAAEAAAAAAAAAAAAAAACCAAAA=</HashCode>
       <FileName>Plan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.Materia">
+    <Position X="10.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAACAAAAAEIQAAEAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Materia.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
