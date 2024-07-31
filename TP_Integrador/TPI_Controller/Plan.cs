@@ -11,32 +11,37 @@ namespace TPI_Controller
         private int _planAnio;
         private int _especId;
 
-        public Plan()
+        public Plan(int planId, int planAnio, int especId)
         {
-            throw new System.NotImplementedException();
+            PlanId = planId;
+            PlanAnio = planAnio;
+            EspecId = especId;
         }
 
         public int PlanId
         {
-            get => default;
+            get => _planId;
             set
             {
+                _planId = value;
             }
         }
 
         public int PlanAnio
         {
-            get => default;
+            get => _planAnio;
             set
             {
+                _planAnio = value;
             }
         }
 
         public int EspecId
         {
-            get => default;
+            get => _especId;
             set
             {
+                _especId = value;
             }
         }
     }
