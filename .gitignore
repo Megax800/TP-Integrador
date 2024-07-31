@@ -4,6 +4,8 @@
 /TP_Integrador/.vs
 /TP_Integrador/**/obj
 /TP_Integrador/**/bin
+**/obj
+**/bin
 /TP_Integrador/.vs/TP_Integrador/FileContentIndex/107b97a0-7875-4b6f-971a-e553ddb25998.vsidx
 # Created by https://www.toptal.com/developers/gitignore/api/csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp
