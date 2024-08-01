@@ -16,5 +16,22 @@ namespace TPI_GUI
         {
             InitializeComponent();
         }
+
+        private void usuariosTSM_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void consultaTSMI_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void UserAltaTSMI_Click(object sender, EventArgs e)
+        {
+            UsuariosAlta usuariosAlta = new UsuariosAlta();
+            //usuariosAlta.MdiParent = this;
+            usuariosAlta.Show();
+        }
     }
 }

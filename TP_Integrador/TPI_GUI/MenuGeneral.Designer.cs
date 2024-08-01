@@ -29,64 +29,70 @@
         private void InitializeComponent()
         {
             menuStrip1 = new MenuStrip();
-            usuariosToolStripMenuItem = new ToolStripMenuItem();
-            altaToolStripMenuItem = new ToolStripMenuItem();
+            usuariosTSM = new ToolStripMenuItem();
+            UserAltaTSMI = new ToolStripMenuItem();
             modificarToolStripMenuItem = new ToolStripMenuItem();
             bajaToolStripMenuItem = new ToolStripMenuItem();
-            consultaToolStripMenuItem = new ToolStripMenuItem();
+            consultaTSMI = new ToolStripMenuItem();
             menuStrip1.SuspendLayout();
             SuspendLayout();
             // 
             // menuStrip1
             // 
-            menuStrip1.Items.AddRange(new ToolStripItem[] { usuariosToolStripMenuItem });
+            menuStrip1.ImageScalingSize = new Size(20, 20);
+            menuStrip1.Items.AddRange(new ToolStripItem[] { usuariosTSM });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(800, 24);
+            menuStrip1.Padding = new Padding(7, 3, 0, 3);
+            menuStrip1.Size = new Size(862, 30);
             menuStrip1.TabIndex = 1;
             menuStrip1.Text = "menuStrip1";
             // 
-            // usuariosToolStripMenuItem
+            // usuariosTSM
             // 
-            usuariosToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { altaToolStripMenuItem, modificarToolStripMenuItem, bajaToolStripMenuItem, consultaToolStripMenuItem });
-            usuariosToolStripMenuItem.Name = "usuariosToolStripMenuItem";
-            usuariosToolStripMenuItem.Size = new Size(64, 20);
-            usuariosToolStripMenuItem.Text = "Usuarios";
+            usuariosTSM.DropDownItems.AddRange(new ToolStripItem[] { UserAltaTSMI, modificarToolStripMenuItem, bajaToolStripMenuItem, consultaTSMI });
+            usuariosTSM.Name = "usuariosTSM";
+            usuariosTSM.Size = new Size(79, 24);
+            usuariosTSM.Text = "Usuarios";
+            usuariosTSM.Click += usuariosTSM_Click;
             // 
-            // altaToolStripMenuItem
+            // UserAltaTSMI
             // 
-            altaToolStripMenuItem.Name = "altaToolStripMenuItem";
-            altaToolStripMenuItem.Size = new Size(180, 22);
-            altaToolStripMenuItem.Text = "Alta";
+            UserAltaTSMI.Name = "UserAltaTSMI";
+            UserAltaTSMI.Size = new Size(224, 26);
+            UserAltaTSMI.Text = "Alta";
+            UserAltaTSMI.Click += UserAltaTSMI_Click;
             // 
             // modificarToolStripMenuItem
             // 
             modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            modificarToolStripMenuItem.Size = new Size(180, 22);
+            modificarToolStripMenuItem.Size = new Size(224, 26);
             modificarToolStripMenuItem.Text = "Modificar";
             // 
             // bajaToolStripMenuItem
             // 
             bajaToolStripMenuItem.Name = "bajaToolStripMenuItem";
-            bajaToolStripMenuItem.Size = new Size(180, 22);
+            bajaToolStripMenuItem.Size = new Size(224, 26);
             bajaToolStripMenuItem.Text = "Baja";
             // 
-            // consultaToolStripMenuItem
+            // consultaTSMI
             // 
-            consultaToolStripMenuItem.Name = "consultaToolStripMenuItem";
-            consultaToolStripMenuItem.Size = new Size(180, 22);
-            consultaToolStripMenuItem.Text = "Consulta";
+            consultaTSMI.Name = "consultaTSMI";
+            consultaTSMI.Size = new Size(224, 26);
+            consultaTSMI.Text = "Consulta";
+            consultaTSMI.Click += consultaTSMI_Click;
             // 
             // MenuGeneral
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(862, 443);
             Controls.Add(menuStrip1);
             IsMdiContainer = true;
             MainMenuStrip = menuStrip1;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "MenuGeneral";
-            Text = "Form2";
+            Text = "Menu General";
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
@@ -96,10 +102,10 @@
         #endregion
 
         private MenuStrip menuStrip1;
-        private ToolStripMenuItem usuariosToolStripMenuItem;
-        private ToolStripMenuItem altaToolStripMenuItem;
+        private ToolStripMenuItem usuariosTSM;
+        private ToolStripMenuItem UserAltaTSMI;
         private ToolStripMenuItem modificarToolStripMenuItem;
         private ToolStripMenuItem bajaToolStripMenuItem;
-        private ToolStripMenuItem consultaToolStripMenuItem;
+        private ToolStripMenuItem consultaTSMI;
     }
 }

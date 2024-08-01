@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TPI_GUI
 {
-    public partial class Form2 : Form
+    public partial class UsuariosAlta : Form
     {
-        public Form2()
+        public UsuariosAlta()
         {
             InitializeComponent();
         }
@@ -23,6 +23,21 @@ namespace TPI_GUI
         }
 
         private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
         {
 
         }
