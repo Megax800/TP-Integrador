@@ -27,15 +27,17 @@ namespace TPI_GUI
                     MessageBox.Show("Contrase�a Incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
                 case 1:
-                    MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    this.Hide();
+                    this.Close();        
                     break;
             }
         }
 
-        private void btnViewPass_Click(object sender, EventArgs e)
+        private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Controlador CTL = new Controlador();
-            MessageBox.Show(CTL.GetUsuario(txtNombre.Text).Clave);
+            MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MenuGeneral menu = new MenuGeneral();
+            menu.ShowDialog();
         }
     }
 }

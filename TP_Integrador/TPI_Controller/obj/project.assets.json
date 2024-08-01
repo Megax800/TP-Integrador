@@ -27,19 +27,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\alber\\.nuget\\packages\\": {}
+    "C:\\Users\\ALUMNO\\.nuget\\packages\\": {},
+    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\TPI_Controller.csproj",
+      "projectUniqueName": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_Controller\\TPI_Controller.csproj",
       "projectName": "TPI_Controller",
-      "projectPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\TPI_Controller.csproj",
-      "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_Controller\\obj\\",
+      "projectPath": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_Controller\\TPI_Controller.csproj",
+      "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_Controller\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -54,8 +59,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {
-              "projectPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj"
+            "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {
+              "projectPath": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj"
             }
           }
         }
@@ -64,11 +69,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -90,7 +90,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

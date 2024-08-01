@@ -24,7 +24,7 @@ namespace TPI_GUI
 
         private void consultaTSMI_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void UserAltaTSMI_Click(object sender, EventArgs e)
@@ -32,6 +32,15 @@ namespace TPI_GUI
             UsuariosAlta usuariosAlta = new UsuariosAlta();
             //usuariosAlta.MdiParent = this;
             usuariosAlta.Show();
+        }
+
+        private void MenuGeneral_Shown(object sender, EventArgs e)
+        {
+
+        }
+
+        private void MenuGeneral_Load(object sender, EventArgs e)
+        {
         }
     }
 }

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {}
+    "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {
+    "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj",
+        "projectUniqueName": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj",
         "projectName": "TPI_DAO",
-        "projectPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj",
-        "packagesPath": "C:\\Users\\alber\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_DAO\\obj\\",
+        "projectPath": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\TPI_DAO.csproj",
+        "packagesPath": "C:\\Users\\ALUMNO\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ALUMNO\\Documents\\TP-Integrador\\TP_Integrador\\TPI_DAO\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\alber\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ALUMNO\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -35,11 +39,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -61,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
