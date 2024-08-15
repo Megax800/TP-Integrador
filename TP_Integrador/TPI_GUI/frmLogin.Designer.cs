@@ -98,7 +98,9 @@
             Controls.Add(lblContraseña);
             Controls.Add(lblNombre);
             Controls.Add(txtNombre);
+            FormBorderStyle = FormBorderStyle.Fixed3D;
             MaximizeBox = false;
+            MinimizeBox = false;
             Name = "frmLogin";
             Text = "Iniciar Sesion";
             FormClosing += frmLogin_FormClosing;

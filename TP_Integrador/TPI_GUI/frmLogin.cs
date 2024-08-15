@@ -5,14 +5,16 @@ namespace TPI_GUI
 {
     public partial class frmLogin : Form
     {
-        public frmLogin()
+        private readonly MenuGeneral parentForm;
+        public frmLogin(MenuGeneral form)
         {
             InitializeComponent();
+            parentForm = form;
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -27,17 +29,18 @@ namespace TPI_GUI
                     MessageBox.Show("Contrase�a Incorrecta", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
                 case 1:
-                    this.Hide();
-                    this.Close();        
+                    MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    parentForm.user = CTL.GetUsuario(txtNombre.Text);
+                    parentForm.habilitar();
+                    this.Dispose();  
                     break;
             }
         }
 
         private void frmLogin_FormClosing(object sender, FormClosingEventArgs e)
         {
-            MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            MenuGeneral menu = new MenuGeneral();
-            menu.ShowDialog();
+
+            Application.Exit();
         }
     }
 }
