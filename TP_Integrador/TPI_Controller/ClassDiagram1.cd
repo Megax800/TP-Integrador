@@ -1,42 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="TPI_Controller.Persona">
-    <Position X="1.5" Y="0.5" Width="1.5" />
+    <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>kAAAAAAAgCQAAQQEACAAhAEAABgAAABAAABAAkIAAAA=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Usuario">
-    <Position X="3.25" Y="0.5" Width="1.5" />
+    <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>gAgBAAAAACAAAAQEAAAAgAAAAAAAABAAAIAAAQIAEAA=</HashCode>
       <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Controlador">
-    <Position X="5.25" Y="0.5" Width="1.5" />
+    <Position X="6.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>YAGQEAAAAAEAAAEAAAAAgAAAAAAAAhQNEABSRAEgQBE=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAgAgAEAAAABAEAAAA=</HashCode>
       <FileName>Controller.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Comision">
-    <Position X="10.5" Y="1" Width="2.25" />
+    <Position X="10" Y="4.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAACAAAAEAAAAAACAABAAAAACACAAA=</HashCode>
       <FileName>Comision.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Especialidad">
-    <Position X="7" Y="0.5" Width="1.5" />
+    <Position X="2.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Especialidad.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Curso">
-    <Position X="8.75" Y="0.5" Width="1.5" />
+    <Position X="7.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>EAAAAYAAgAIAAAAAACAAAAABAAAAAgAAAAAgAQAAAAA=</HashCode>
       <FileName>Curso.cs</FileName>
@@ -50,10 +50,38 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Materia">
-    <Position X="10.5" Y="4" Width="2" />
+    <Position X="8" Y="4.75" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAACAAAAAEIQAAEAAAAAAAAAACAAAAA=</HashCode>
       <FileName>Materia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.PersonaControlador">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAEAAAAAAAAAAAAAAAAAABABAAAAAAAgAAE=</HashCode>
+      <FileName>PersonaControlador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.UsuarioControlador">
+    <Position X="5.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAEAAAAAAAAAgAAAAAAAAAAAEABCQAAAAAA=</HashCode>
+      <FileName>UsuarioControlador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.CursoControlador">
+    <Position X="9.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAEAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>CursoControlador.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_Controller.EspecialidadControlador">
+    <Position X="4" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAAQBA=</HashCode>
+      <FileName>EspecialidadControlador.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

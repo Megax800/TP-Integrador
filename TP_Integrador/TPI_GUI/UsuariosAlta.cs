@@ -41,5 +41,10 @@ namespace TPI_GUI
         {
 
         }
+
+        private void UsuariosAlta_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

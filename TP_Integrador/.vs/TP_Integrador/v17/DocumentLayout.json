@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\",
+  "WorkspaceRootPath": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_gui\\usuariosalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\usuariosalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\tpi_controller\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
+      "RelativeMoniker": "D:0:0:{304BA763-DD23-4C40-9E49-F0865BD86315}|TPI_Controller\\TPI_Controller.csproj|solutionrelative:tpi_controller\\classdiagram1.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\alber\\documents\\facultad\\electivas\\net\\tp_integrador\\tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|c:\\users\\octavio\\documents\\desarrollo ide\\net\\tp-integrador\\tp_integrador\\tpi_gui\\usuariosalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\usuariosalta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{B8FF72D0-2AFC-4769-92D0-3797E794265E}|TPI_GUI\\TPI_GUI.csproj|solutionrelative:tpi_gui\\menugeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,44 +26,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuariosAlta.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\UsuariosAlta.cs",
+              "RelativeDocumentMoniker": "TPI_GUI\\UsuariosAlta.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\UsuariosAlta.cs",
+              "RelativeToolTip": "TPI_GUI\\UsuariosAlta.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAADgvxgAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-25T02:58:55.681Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClassDiagram1.cd",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\ClassDiagram1.cd",
+              "RelativeDocumentMoniker": "TPI_Controller\\ClassDiagram1.cd",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_Controller\\ClassDiagram1.cd",
+              "RelativeToolTip": "TPI_Controller\\ClassDiagram1.cd",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
+              "WhenOpened": "2024-08-25T02:02:04.992Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MenuGeneral.cs",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
               "RelativeDocumentMoniker": "TPI_GUI\\MenuGeneral.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
               "RelativeToolTip": "TPI_GUI\\MenuGeneral.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAACAAAAAOAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwCYAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-01T04:20:58.642Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UsuariosAlta.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\UsuariosAlta.cs",
-              "RelativeDocumentMoniker": "TPI_GUI\\UsuariosAlta.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\UsuariosAlta.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TPI_GUI\\UsuariosAlta.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T04:04:58.756Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "MenuGeneral.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
+              "DocumentMoniker": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs",
               "RelativeDocumentMoniker": "TPI_GUI\\MenuGeneral.cs",
-              "ToolTip": "C:\\Users\\alber\\Documents\\Facultad\\Electivas\\NET\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\Octavio\\Documents\\Desarrollo IDE\\Net\\TP-Integrador\\TP_Integrador\\TPI_GUI\\MenuGeneral.cs [Dise\u00F1o]",
               "RelativeToolTip": "TPI_GUI\\MenuGeneral.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T03:29:50.737Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-08-01T03:29:50.737Z"
             }
           ]
         }

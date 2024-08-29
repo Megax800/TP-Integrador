@@ -19,7 +19,7 @@ namespace TPI_GUI
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Controlador CTL = new Controlador();
+            UsuarioControlador CTL = new UsuarioControlador();
             switch (CTL.ValidaUser(txtNombre.Text, txtContraseña.Text))
             {
                 case 0:

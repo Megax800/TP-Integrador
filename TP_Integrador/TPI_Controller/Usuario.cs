@@ -10,25 +10,19 @@ namespace TPI_Controller
         private string _apellido;
         private string _clave;
         private string _mail;
-        private bool _habilitado;
+        private int _tipousuario;
         private string _nombre;
         private string _nombreusuario;
-        public Usuario(string ape, string nom, TipoPersonas tp, DateTime nac)
+        private int _legajo;
+        public Usuario(string ape, string nom, TipoPersonas tp, DateTime nac, int legajo)
         {
             _apellido = ape;
             _nombre = nom;
             _mail = "";
             _nombreusuario = String.Concat(ape.ToLower(), nom.ToLower());
             _clave = nac.ToShortDateString();
-            if (tp.id == 1)
-            {
-                _habilitado = true;
-            }
-            else
-            {
-                _habilitado = false;
-            }
-      
+            _tipousuario = tp.id;
+            _legajo = legajo;
         }
 
         public string Apellido
@@ -61,10 +55,16 @@ namespace TPI_Controller
             set => _nombreusuario = value;
         }
 
-        public bool Habilitado
+        public int TipoUsuario
         {
-            get => _habilitado;
-            set => _habilitado = value;
+            get => _tipousuario;
+            set => _tipousuario = value;
+        }
+
+        public int Legajo
+        {
+            get => _legajo;
+            set => _legajo = value;
         }
     }
 }

@@ -21,7 +21,7 @@ namespace TPI_GUI
         public Usuario user;
         public void habilitar()
         {
-            menuStrip1.Enabled = true;
+            menuStrip1.Visible = true;
         }
 
         private void usuariosTSM_Click(object sender, EventArgs e)
@@ -44,10 +44,15 @@ namespace TPI_GUI
         private void MenuGeneral_Load(object sender, EventArgs e)
         {
             var login = new frmLogin(this);
-            menuStrip1.Enabled = false;
+            menuStrip1.Visible = false;
             login.MdiParent = this;
             login.Show();
-                
+
+        }
+
+        private void nuevoAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
