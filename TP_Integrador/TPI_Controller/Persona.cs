@@ -21,17 +21,14 @@ namespace TPI_Controller
         private int _legajo;
         private System.DateTime _fechanac;
         private TipoPersonas _tipopersona;
-        public int lastID = 1;
 
-        public Persona(string ape, string nom, TipoPersonas tp, DateTime fechanac)
+        public Persona(string ape, string nom, TipoPersonas tp, DateTime fechanac, int leg)
         {
             Apellido = ape;
             Nombre = nom;
-            Legajo = lastID;
+            Legajo = leg;
             TipoPersona = tp;
             _fechanac = fechanac;
-
-            lastID++;
         }
 
         public string Apellido

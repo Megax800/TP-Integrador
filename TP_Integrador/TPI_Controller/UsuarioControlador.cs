@@ -48,11 +48,11 @@ namespace TPI_Controller
             }
         }
 
-        public bool AddUsuario(string ape, string nom, TipoPersonas tp, DateTime nac, int leg)
+        public bool AddUsuario(Usuario User)
         {
             try
             {
-                usuarios.Add(new Usuario(ape, nom, tp, nac, leg));
+                usuarios.Add(User);
             }
             catch (Exception ex)
             {

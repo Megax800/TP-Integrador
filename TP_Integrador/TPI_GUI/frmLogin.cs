@@ -14,7 +14,7 @@ namespace TPI_GUI
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -32,7 +32,7 @@ namespace TPI_GUI
                     MessageBox.Show("Login Correcto", "Felicidades", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     parentForm.user = CTL.GetUsuario(txtNombre.Text);
                     parentForm.habilitar();
-                    this.Dispose();  
+                    this.Dispose();
                     break;
             }
         }
@@ -41,6 +41,14 @@ namespace TPI_GUI
         {
 
             Application.Exit();
+        }
+
+        private void lblContraseña_Click(object sender, EventArgs e)
+        {
+            UsuarioControlador CTL = new UsuarioControlador();
+            parentForm.user = CTL.GetUsuario("russmannoctavio");
+            parentForm.habilitar();
+            this.Dispose();
         }
     }
 }

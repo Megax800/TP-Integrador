@@ -20,7 +20,7 @@ namespace TPI_Controller
             _nombre = nom;
             _mail = "";
             _nombreusuario = String.Concat(ape.ToLower(), nom.ToLower());
-            _clave = nac.ToShortDateString();
+            _clave = nac.ToShortDateString().Replace("/", "");
             _tipousuario = tp.id;
             _legajo = legajo;
         }

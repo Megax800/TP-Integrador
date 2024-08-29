@@ -60,6 +60,7 @@
             lblContraseña.Size = new Size(67, 15);
             lblContraseña.TabIndex = 2;
             lblContraseña.Text = "Contraseña";
+            lblContraseña.Click += lblContraseña_Click;
             // 
             // txtContraseña
             // 

@@ -22,6 +22,15 @@ namespace TPI_GUI
         public void habilitar()
         {
             menuStrip1.Visible = true;
+            switch (user.TipoUsuario)
+            {
+                case 2:
+                    for(int i = 0; i<4; i++)
+                    {
+                        menuStrip1.Items[i].Visible = false;
+                    }
+                    break;
+            }
         }
 
         private void usuariosTSM_Click(object sender, EventArgs e)

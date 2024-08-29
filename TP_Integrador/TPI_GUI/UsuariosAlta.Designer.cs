@@ -50,6 +50,9 @@
             tbUserEmail = new TextBox();
             label11 = new Label();
             tbUserPasswordConfirm = new TextBox();
+            txtLegajo = new TextBox();
+            label12 = new Label();
+            btnBuscar = new Button();
             SuspendLayout();
             // 
             // label1
@@ -92,7 +95,6 @@
             // 
             tbUserPassword.Location = new Point(619, 92);
             tbUserPassword.Name = "tbUserPassword";
-            tbUserPassword.PasswordChar = '*';
             tbUserPassword.Size = new Size(155, 23);
             tbUserPassword.TabIndex = 4;
             // 
@@ -173,6 +175,7 @@
             // 
             // tbUserNombre
             // 
+            tbUserNombre.Enabled = false;
             tbUserNombre.Location = new Point(199, 60);
             tbUserNombre.Margin = new Padding(3, 2, 3, 2);
             tbUserNombre.Name = "tbUserNombre";
@@ -181,6 +184,7 @@
             // 
             // tbUserApellido
             // 
+            tbUserApellido.Enabled = false;
             tbUserApellido.Location = new Point(199, 92);
             tbUserApellido.Margin = new Padding(3, 2, 3, 2);
             tbUserApellido.Name = "tbUserApellido";
@@ -189,6 +193,7 @@
             // 
             // tbUserDNI
             // 
+            tbUserDNI.Enabled = false;
             tbUserDNI.Location = new Point(199, 122);
             tbUserDNI.Margin = new Padding(3, 2, 3, 2);
             tbUserDNI.Name = "tbUserDNI";
@@ -197,6 +202,7 @@
             // 
             // tbUserFecNac
             // 
+            tbUserFecNac.Enabled = false;
             tbUserFecNac.Location = new Point(199, 148);
             tbUserFecNac.Margin = new Padding(3, 2, 3, 2);
             tbUserFecNac.Name = "tbUserFecNac";
@@ -205,6 +211,7 @@
             // 
             // tbUserDomicilio
             // 
+            tbUserDomicilio.Enabled = false;
             tbUserDomicilio.Location = new Point(199, 178);
             tbUserDomicilio.Margin = new Padding(3, 2, 3, 2);
             tbUserDomicilio.Name = "tbUserDomicilio";
@@ -213,6 +220,7 @@
             // 
             // tbUserTelefono
             // 
+            tbUserTelefono.Enabled = false;
             tbUserTelefono.Location = new Point(199, 206);
             tbUserTelefono.Margin = new Padding(3, 2, 3, 2);
             tbUserTelefono.Name = "tbUserTelefono";
@@ -221,6 +229,7 @@
             // 
             // tbUserEmail
             // 
+            tbUserEmail.Enabled = false;
             tbUserEmail.Location = new Point(199, 236);
             tbUserEmail.Margin = new Padding(3, 2, 3, 2);
             tbUserEmail.Name = "tbUserEmail";
@@ -245,11 +254,41 @@
             tbUserPasswordConfirm.Size = new Size(155, 23);
             tbUserPasswordConfirm.TabIndex = 21;
             // 
+            // txtLegajo
+            // 
+            txtLegajo.Location = new Point(161, 24);
+            txtLegajo.Name = "txtLegajo";
+            txtLegajo.Size = new Size(100, 23);
+            txtLegajo.TabIndex = 22;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Location = new Point(14, 27);
+            label12.Name = "label12";
+            label12.Size = new Size(141, 15);
+            label12.TabIndex = 23;
+            label12.Text = "Ingrese legajo del usuario";
+            label12.Click += label12_Click;
+            // 
+            // btnBuscar
+            // 
+            btnBuscar.Location = new Point(266, 23);
+            btnBuscar.Name = "btnBuscar";
+            btnBuscar.Size = new Size(75, 23);
+            btnBuscar.TabIndex = 24;
+            btnBuscar.Text = "Consulta";
+            btnBuscar.UseVisualStyleBackColor = true;
+            btnBuscar.Click += btnBuscar_Click;
+            // 
             // UsuariosAlta
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(809, 283);
+            Controls.Add(btnBuscar);
+            Controls.Add(label12);
+            Controls.Add(txtLegajo);
             Controls.Add(tbUserPasswordConfirm);
             Controls.Add(label11);
             Controls.Add(tbUserEmail);
@@ -304,5 +343,8 @@
         private TextBox tbUserEmail;
         private Label label11;
         private TextBox tbUserPasswordConfirm;
+        private TextBox txtLegajo;
+        private Label label12;
+        private Button btnBuscar;
     }
 }

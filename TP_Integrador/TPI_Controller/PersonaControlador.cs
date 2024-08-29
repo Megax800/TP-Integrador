@@ -12,6 +12,7 @@ namespace TPI_Controller
 
         public PersonaControlador()
         {
+            int lastID = 0;
             listaTipos[0].id = 1;
             listaTipos[0].nombre = "sysAdmin";
             listaTipos[1].id = 2;
@@ -19,19 +20,24 @@ namespace TPI_Controller
             listaTipos[2].id = 3;
             listaTipos[2].nombre = "Docente";
 
-            personas.Add(new Persona("Russmann", "Octavio", listaTipos[0], DateTime.Parse("13/06/2002")));
-            personas.Add(new Persona("Perez", "Sergio", listaTipos[1], DateTime.Parse("29/03/2005")));
-            personas.Add(new Persona("Son", "Goku", listaTipos[1], DateTime.Parse("14/07/1999")));
-            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972")));
-            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985")));
-            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989")));
+            personas.Add(new Persona("Russmann", "Octavio", listaTipos[0], DateTime.Parse("13/06/2002"), lastID));
+            lastID++;
+            personas.Add(new Persona("Perez", "Sergio", listaTipos[1], DateTime.Parse("29/03/2005"), lastID));
+            lastID++;
+            personas.Add(new Persona("Son", "Goku", listaTipos[1], DateTime.Parse("14/07/1999"), lastID));
+            lastID++;
+            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972"), lastID));
+            lastID++;
+            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985"), lastID));
+            lastID++;
+            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989"), lastID));
         }
 
-        public bool AddAlumno(string ape, string nom, DateTime nac)
+        public bool AddAlumno(string ape, string nom, DateTime nac, int leg)
         {
             try
             {
-                personas.Add(new Persona(ape, nom, listaTipos[1], nac));
+                personas.Add(new Persona(ape, nom, listaTipos[1], nac, leg));
             }
             catch (Exception ex)
             {
@@ -40,13 +46,13 @@ namespace TPI_Controller
             return true;
         }
 
-        public Persona GetAlumno(int id)
+        public Persona GetPersona(int id)
         {
-            var query = from p in personas where p.Legajo.Equals(id) & p.TipoPersona.id.Equals(2) select p;
+            var query = from p in personas where p.Legajo.Equals(id) select p;
             return query.ElementAt(0);
         }
 
-        public bool UpdateAlumno(Persona old_al, Persona mod_al)
+        public bool UpdatePersona(Persona old_al, Persona mod_al)
         {
             try
             {
@@ -60,7 +66,7 @@ namespace TPI_Controller
             return true;
         }
 
-        public bool RemoveAlumno(Persona al)
+        public bool RemovePersona(Persona al)
         {
             try
             {
