@@ -3,14 +3,14 @@
   <Class Name="TPI_Controller.Persona">
     <Position X="0.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>kAAAAAAAgCQAAQQEACAAhAEAABgAAABAAABAAkIAAAA=</HashCode>
+      <HashCode>kAAAAAAAgCQAAQQEACAAhAEAABgAAAAAAABAAkIAAAA=</HashCode>
       <FileName>Persona.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Usuario">
     <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>gAgBAAAAACAAAAQEAAAAgAAAAAAAABAAAIAAAQIAEAA=</HashCode>
+      <HashCode>gAgAAAAAACQAAAQEAAgghAAAAAAAAAAAAIAAAQIAEAA=</HashCode>
       <FileName>Usuario.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -50,7 +50,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="TPI_Controller.Materia">
-    <Position X="8" Y="4.75" Width="1.75" />
+    <Position X="7.75" Y="4.25" Width="1.75" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAEAAAAACAAAAAEIQAAEAAAAAAAAAACAAAAA=</HashCode>
       <FileName>Materia.cs</FileName>
@@ -59,7 +59,7 @@
   <Class Name="TPI_Controller.PersonaControlador">
     <Position X="2.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AACAAAAAAAEAAAAAAAAAAAAAAAAAABABAAAAAAAgAAE=</HashCode>
+      <HashCode>AACEAAAAAAEAAAAEAAAAAAAAAAAAAEAAAAAAAAAgAAA=</HashCode>
       <FileName>PersonaControlador.cs</FileName>
     </TypeIdentifier>
   </Class>
