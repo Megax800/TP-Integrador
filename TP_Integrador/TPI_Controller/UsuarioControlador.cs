@@ -67,6 +67,12 @@ namespace TPI_Controller
             return query.ElementAt(0);
         }
 
+        public List<Usuario> GetUsuariosByType(int id)
+        {
+            var query = (from u in usuarios where u.TipoUsuario.Equals(id) select u).ToList();
+            return query;
+        }
+
         public bool UpdateUsuario(Usuario oldUser, Usuario modifiedUser)
         {
             try

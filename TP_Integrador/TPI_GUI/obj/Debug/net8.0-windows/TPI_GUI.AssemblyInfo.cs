@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TPI_GUI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0338d62e216399f1461ceb6c4e06332724743195")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0a06823e877e8d62823343dc8d9a5317bb57bdb0")]
 [assembly: System.Reflection.AssemblyProductAttribute("TPI_GUI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TPI_GUI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

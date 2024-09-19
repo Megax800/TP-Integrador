@@ -22,11 +22,10 @@ namespace TPI_Controller
         private System.DateTime _fechanac;
         private TipoPersonas _tipopersona;
 
-        public Persona(string ape, string nom, TipoPersonas tp, DateTime fechanac, int leg)
+        public Persona(string ape, string nom, TipoPersonas tp, DateTime fechanac)
         {
             Apellido = ape;
             Nombre = nom;
-            Legajo = leg;
             TipoPersona = tp;
             _fechanac = fechanac;
         }

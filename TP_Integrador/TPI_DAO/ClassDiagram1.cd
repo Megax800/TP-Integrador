@@ -1,18 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="TPI_DAO.DAOPersonas">
-    <Position X="3" Y="1.5" Width="1.5" />
+  <Class Name="TPI_DAO.DAOComision">
+    <Position X="5.75" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DAOPersonas.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAACAAAAEAAAAAACAABAAAAACACAAA=</HashCode>
+      <FileName>DAOComision.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="TPI_DAO.DAOUsuarios">
-    <Position X="5" Y="1.5" Width="1.5" />
+  <Class Name="TPI_DAO.DAOCurso">
+    <Position X="4" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>DAOUsuarios.cs</FileName>
+      <HashCode>EAAAAYAAgAIAAAAAACAAAAABAAAAAgAAAAAgAQAAAAA=</HashCode>
+      <FileName>DAOCurso.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Class Name="TPI_DAO.DAOEspecialidad">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DAOEspecialidad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_DAO.DAOMateria">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAACAAAAAEIQAAEAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>DAOMateria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_DAO.DAOPersona">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAgCQAAQQEACAAhAEAABgAAAAAAABAAkIAAAA=</HashCode>
+      <FileName>DAOPersona.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_DAO.DAOPlan">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAEACAAAAAAAAEAAAAAAAAAAAAAAACCAAAA=</HashCode>
+      <FileName>DAOPlan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TPI_DAO.DAOUsuario">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAgAAAAAACQAAAQEAAgghAAAAAAAAAAAAIAAAQIAEAA=</HashCode>
+      <FileName>DAOUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="TPI_DAO.TipoPersonas">
+    <Position X="5.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>DAOPersona.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

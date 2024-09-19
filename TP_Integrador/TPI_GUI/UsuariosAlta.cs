@@ -31,6 +31,7 @@ namespace TPI_GUI
             {
                 UsuarioControlador CTL = new UsuarioControlador();
                 CTL.AddUsuario(buffer);
+                MessageBox.Show("Usuario Creado Correctamente","Operacion Exitosa",MessageBoxButtons.OK,MessageBoxIcon.Information);
             }
         }
 

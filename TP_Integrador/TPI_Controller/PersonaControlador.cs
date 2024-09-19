@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using TPI_DAO;
 
 namespace TPI_Controller
 {
@@ -9,6 +10,11 @@ namespace TPI_Controller
     {
         TipoPersonas[] listaTipos = new TipoPersonas[3];
         List<Persona> personas = [];
+
+        public TipoPersonas devolverListaTipos(int tipo)
+        {
+            return listaTipos[tipo];
+        }
 
         public PersonaControlador()
         {
@@ -20,30 +26,32 @@ namespace TPI_Controller
             listaTipos[2].id = 3;
             listaTipos[2].nombre = "Docente";
 
-            personas.Add(new Persona("Russmann", "Octavio", listaTipos[0], DateTime.Parse("13/06/2002"), lastID));
+            personas.Add(new Persona("Russmann", "Octavio", listaTipos[0], DateTime.Parse("13/06/2002")));
             lastID++;
-            personas.Add(new Persona("Perez", "Sergio", listaTipos[1], DateTime.Parse("29/03/2005"), lastID));
+            personas.Add(new Persona("Perez", "Sergio", listaTipos[1], DateTime.Parse("29/03/2005")));
             lastID++;
-            personas.Add(new Persona("Son", "Goku", listaTipos[1], DateTime.Parse("14/07/1999"), lastID));
+            personas.Add(new Persona("Son", "Goku", listaTipos[1], DateTime.Parse("14/07/1999")));
             lastID++;
-            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972"), lastID));
+            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972")));
             lastID++;
-            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985"), lastID));
+            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985")));
             lastID++;
-            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989"), lastID));
+            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989")));
         }
 
-        public bool AddAlumno(string ape, string nom, DateTime nac, int leg)
+        public string AddPersona(Persona per)
         {
             try
             {
-                personas.Add(new Persona(ape, nom, listaTipos[1], nac, leg));
+                DAOPersona DAO= new DAOPersona();
+
+                DAO.AddPersona(per.Apellido,per.Nombre,per.TipoPersona.id,per.FechaNacimiento);
             }
             catch (Exception ex)
             {
-                return false;
+                return ex.ToString();
             }
-            return true;
+            return "ok";
         }
 
         public Persona GetPersona(int id)

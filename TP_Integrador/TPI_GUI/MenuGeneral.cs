@@ -40,7 +40,9 @@ namespace TPI_GUI
 
         private void consultaTSMI_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(user.NombreUsuario);
+            frmUsuarioConsulta usuarioConsulta = new frmUsuarioConsulta();
+            usuarioConsulta.MdiParent = this;
+            usuarioConsulta.Show();
         }
 
         private void UserAltaTSMI_Click(object sender, EventArgs e)
@@ -61,7 +63,10 @@ namespace TPI_GUI
 
         private void nuevoAlumnoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            frmPersonaABM frmPersonaABM = new frmPersonaABM();
+            frmPersonaABM.tipoABM(2);
+            frmPersonaABM.MdiParent = this;
+            frmPersonaABM.Show();
         }
     }
 }
