@@ -18,25 +18,12 @@ namespace TPI_Controller
 
         public PersonaControlador()
         {
-            int lastID = 0;
             listaTipos[0].id = 1;
-            listaTipos[0].nombre = "sysAdmin";
+            listaTipos[0].nombre = "Alumno";
             listaTipos[1].id = 2;
-            listaTipos[1].nombre = "Alumno";
+            listaTipos[1].nombre = "Profesor";
             listaTipos[2].id = 3;
-            listaTipos[2].nombre = "Docente";
-
-            personas.Add(new Persona("Russmann", "Octavio", listaTipos[0], DateTime.Parse("13/06/2002")));
-            lastID++;
-            personas.Add(new Persona("Perez", "Sergio", listaTipos[1], DateTime.Parse("29/03/2005")));
-            lastID++;
-            personas.Add(new Persona("Son", "Goku", listaTipos[1], DateTime.Parse("14/07/1999")));
-            lastID++;
-            personas.Add(new Persona("Gonzalez", "Rafael", listaTipos[2], DateTime.Parse("13/06/1972")));
-            lastID++;
-            personas.Add(new Persona("Verian", "Gabriel", listaTipos[2], DateTime.Parse("29/03/1985")));
-            lastID++;
-            personas.Add(new Persona("Espinosa", "Maria", listaTipos[2], DateTime.Parse("14/07/1989")));
+            listaTipos[2].nombre = "Sysadmin";
         }
 
         public string AddPersona(Persona per)
@@ -45,7 +32,7 @@ namespace TPI_Controller
             {
                 DAOPersona DAO= new DAOPersona();
 
-                DAO.AddPersona(per.Apellido,per.Nombre,per.TipoPersona.id,per.FechaNacimiento);
+                DAO.AddPersona(per.Apellido,per.Nombre,per.TipoPersona.id,per.FechaNacimiento,per.Direccion, per.IdPlan, per.Telefono, per.Email);
             }
             catch (Exception ex)
             {
@@ -56,8 +43,11 @@ namespace TPI_Controller
 
         public Persona GetPersona(int id)
         {
-            var query = from p in personas where p.Legajo.Equals(id) select p;
-            return query.ElementAt(0);
+            DAOPersona DAO= new DAOPersona();
+            DAO.GetPersonaById(id);
+            Persona per = new Persona(DAO.Apellido, DAO.Nombre, listaTipos[DAO.TipoPersona - 1], DAO.FechaNacimiento, DAO.Direccion, DAO.IdPlan, DAO.Telefono, DAO.Email);
+
+            return per;
         }
 
         public bool UpdatePersona(Persona old_al, Persona mod_al)

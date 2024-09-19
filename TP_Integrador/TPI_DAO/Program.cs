@@ -27,7 +27,7 @@ namespace TPI_DAO
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS; Database=Academia; Integrated Security=True; TrustServerCertificate=True");
+            optionsBuilder.UseSqlServer(@"Server=.\SQLEXPRESS; Database=InstitutoOngania; Integrated Security=True; TrustServerCertificate=True");
             optionsBuilder.LogTo(Console.WriteLine, LogLevel.Information);
         }
 

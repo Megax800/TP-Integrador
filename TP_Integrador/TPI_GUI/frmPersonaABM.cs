@@ -24,6 +24,18 @@ namespace TPI_GUI
             tipoPersona = tipo;
         }
 
+        private bool checkEmptytxt()
+        {
+            if (txtApellido.Text == "" || txtDireccion.Text == "" || txtEmail.Text == "" || txtNombre.Text == "" || txtTelefono.Text == "")
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         private void lblNombre_Click(object sender, EventArgs e)
         {
 
@@ -42,14 +54,22 @@ namespace TPI_GUI
         private void btnABM_Click(object sender, EventArgs e)
         {
             PersonaControlador CTL = new PersonaControlador();
-            Persona buffer = new Persona(txtApellido.Text, txtNombre.Text, CTL.devolverListaTipos(tipoPersona), pickerFechaNac.Value.Date);
-            string rta = CTL.AddPersona(buffer);
-            MessageBox.Show(rta);
-            if (cbNuevoUsuario.Checked == true)
+            if (checkEmptytxt())
             {
-                UsuariosAlta nuevoUsuario = new UsuariosAlta();
-                nuevoUsuario.Show();
+                MessageBox.Show("Completar los espacios obligatorios");
             }
+            else
+            {
+                Persona buffer = new Persona(txtApellido.Text, txtNombre.Text, CTL.devolverListaTipos(tipoPersona), pickerFechaNac.Value.Date, txtDireccion.Text, 0, txtTelefono.Text, txtEmail.Text);
+                string rta = CTL.AddPersona(buffer);
+                MessageBox.Show(rta);
+                if (cbNuevoUsuario.Checked == true)
+                {
+                    UsuariosAlta nuevoUsuario = new UsuariosAlta();
+                    nuevoUsuario.Show();
+                }
+            }
+            
         }
 
         private void monthCalendar1_DateChanged(object sender, DateRangeEventArgs e)

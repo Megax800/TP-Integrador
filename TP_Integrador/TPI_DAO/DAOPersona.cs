@@ -1,28 +1,27 @@
-﻿using System;
+﻿using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Numerics;
 using System.Text;
 
 namespace TPI_DAO
 {
-   public struct TipoPersonas { 
-        public int id;
-        public string nombre;
-   }
     public class DAOPersona
     {
-        TipoPersonas[] listaTipos = new TipoPersonas[3];
 
         public DAOPersona()
         {
-            listaTipos[0].id = 1;
-            listaTipos[0].nombre = "sysAdmin";
-            listaTipos[1].id = 2;
-            listaTipos[1].nombre = "Alumno";
-            listaTipos[2].id = 3;
-            listaTipos[2].nombre = "Docente";
+            Apellido = "Foo";
+            Nombre = "Bar";
+            Direccion = "Fake St. 123";
+            Email = "-";
+            IdPlan = 0;
+            Telefono = "-";
+            TipoPersona = 0;
+            FechaNacimiento = DateTime.Today;
         }
 
         public string Apellido { get; set; }
@@ -43,18 +42,68 @@ namespace TPI_DAO
 
         public int TipoPersona { get; set; }
 
-        public void AddPersona(string ape, string nom, int tp, DateTime fechanac)
+        public void AddPersona(string ape, string nom, int tp, DateTime fechanac, string dir, int plan, string tel, string mail)
         {
             using (var context = new AcademiaContext())
             {
-                DAOPersona per = new DAOPersona();
-                per.Nombre = nom;
-                per.FechaNacimiento = fechanac;
-                per.TipoPersona = tp;
-                per.Apellido = ape;
+                Apellido = ape;
+                Nombre = nom;
+                TipoPersona = tp;
+                FechaNacimiento = fechanac;
+                Direccion = dir;
+                IdPlan = plan;
+                Telefono = tel;
+                Email = mail;
 
-                context.Personas.Add(per);
+                context.Personas.Add(this);
+                context.SaveChanges();
             }
+        }
+
+        public void ModifyPersona(string ape, string nom, int tp, DateTime fechanac, string dir, int plan, string tel, int leg)
+        {
+            using (var context = new AcademiaContext())
+            {
+
+                if(context.Personas.Find(leg) != null)
+                {
+                    Apellido = ape;
+                    Nombre = nom;
+                    TipoPersona = tp;
+                    FechaNacimiento = fechanac;
+                    Direccion = dir;
+                    IdPlan = plan;
+                    Telefono = tel;
+
+                    context.SaveChanges();
+                }
+                
+            }
+        }
+
+        public void DeletePersona(int leg)
+        {
+            using (var context = new AcademiaContext())
+            {
+
+                if (context.Personas.Find(leg) != null)
+                {
+                    context.Personas.Remove(this);
+                    context.SaveChanges();
+                }
+
+            }
+        }
+
+        public DAOPersona GetPersonaById(int leg)
+        {
+            using (var context = new AcademiaContext())
+            {
+                var query = from p in context.Personas where p.Legajo.Equals(leg) select p;
+                return query.ElementAt(0);
+            }
+
+
         }
     }
 }
